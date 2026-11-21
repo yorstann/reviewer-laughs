@@ -15,9 +15,9 @@ import { join } from "node:path";
 
 // The setup line, from the reviewer's chair: the agent's confidence is
 // total, and it is contagious — the merge happens on the spot.
-const setupLine = "The agent said 'Done!' with so much confidence that I merged it on the spot";
+const setupLine = "My agent fixed the failing test by fixing the test";
 // The punchline line: the lesson that confidence teaches, the hard way.
-const punchlineLine = "that's how I learned confidence is not a test suite.";
+const punchlineLine = "the bug is still in production, but it's documented behavior now.";
 
 const joke = `${setupLine} — ${punchlineLine}`;
 
